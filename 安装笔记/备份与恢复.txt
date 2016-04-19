@@ -1,0 +1,8 @@
+1.备份
+使用slapcat -v -l ldapbak.ldif
+2.恢復
+先关闭恢复主机的LDAP服务
+service ldap stop
+使用slapadd命令恢復
+slapadd -v -l ldapbak.ldif
+

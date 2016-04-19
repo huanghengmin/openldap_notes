@@ -1,0 +1,22 @@
+dn: dc=pkica
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o:pkica
+dc: pkica
+structuralObjectClass: organization
+
+dn: cn=admin,dc=pkica
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+description: LDAP administrator
+userPassword:: e1NTSEF9dldqNld2UndiYmRnbWdPLytxcnRqN1dqSFJ1YkYyOHY=
+structuralObjectClass: organizationalRole
+
+
+
+
+
+
+
